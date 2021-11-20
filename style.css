@@ -7,12 +7,14 @@ border-color: black;
 border-radius: 40px;
 
 }
+
 header h1{
 text-align: center;
 color: black;
 font-size: 40px;
 }
-
+.darkMode{background-color: black; transition: ease .3s; color: #FFF}
+.lightMode{background-color: #FFF; transition: ease .3s; }
 
 .enter{
 float: left;
@@ -72,7 +74,7 @@ margin-right: 1.8px;
 }
 
 .item-1{
-    margin-top: 10px;
+    margin-top: 7px;
 border-style: groove;
 border-width: 1px;
 border-color: black;
@@ -162,3 +164,9 @@ flex-wrap: wrap;
     flex: 1.5 1 ;
 
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+  }
