@@ -13,8 +13,16 @@ text-align: center;
 color: black;
 font-size: 40px;
 }
-.darkMode{background-color: black; transition: ease .3s; color: #FFF}
-.lightMode{background-color: #FFF; transition: ease .3s; }
+
+#bu{
+display: grid;
+margin: auto;
+font-size: 20px;
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
 
 .enter{
 float: left;
